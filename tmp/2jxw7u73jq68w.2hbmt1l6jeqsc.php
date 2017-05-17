@@ -8,6 +8,19 @@
     <body>
         <h1><?= $title ?></h1>
         <p>User logged in as <?= $username ?> using <?= $password ?></p>
+        
+        <h3>Message</h3>
+        <?php if ($preferredCustomer): ?>
+            <strong>Thank you as always for your service</strong>
+        <?php endif; ?>
+        
+        <p>
+        <?php if ($lastLogin > strtotime('-1 month')): ?>
+            Welcome back
+            <?php else: ?>It's been a while
+        <?php endif; ?>
+        </p>
+        
         <p>It is currently <?= $temp ?> degrees Fahrenheit</p>
         <p>In Celsius, the temperature is <?= $temp - 32 * (5.0 / 9.0) ?> degrees</p>
         <p>One of my favorite colors is <?= $color ?></p>
@@ -30,6 +43,16 @@
         <h3>Addresses</h3>
         <p><?= $addresses['primary'] ?></p>
         <p><?= $addresses['secondary'] ?></p>
-        <p></p>
+        
+        <h3>Desserts</h3>
+        <ul>
+            <?php foreach (($desserts?:[]) as $dessertKey=>$dessert): ?>
+                <li>
+                    <input type="checkbox" name="<?= $dessertKey ?>"
+                           value="<?= $dessert ?>">
+                    <?= $dessert.PHP_EOL ?>
+                </li>
+            <?php endforeach; ?>
+        </ul>
     </body>
 </html>

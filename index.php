@@ -25,6 +25,13 @@
         $f3->set('addresses', array('primary' => '1000 Apple Ln. Seattle, WA 98030',
                                     'secondary' => '2510 100th Court Tacoma, WA 98030'));
         
+        $f3->set('desserts', array('chocolate' => 'Chocolate Mousse',
+                                   'vanilla' => 'Vanilla Custard',
+                                   'strawberry' => 'Strawberry Shortcake'));
+        
+        $f3->set('preferredCustomer', true);
+        $f3->set('lastLogin', strtotime('-1 week'));
+        
         echo Template::instance()->render('pages/info.html');
     });
 

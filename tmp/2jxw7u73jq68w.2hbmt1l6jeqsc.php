@@ -54,5 +54,14 @@
                 </li>
             <?php endforeach; ?>
         </ul>
+        
+        <h3>My Pet</h3>
+        <p><?= $firstPet->getName() ?></p>
+        <p> <?= $firstPet->getColor() ?> </p>
+        
+        <?php if ($secondPet->getColor() === $color): ?>
+            an image of a pet
+            <?php else: ?>some text
+        <?php endif; ?>
     </body>
 </html>

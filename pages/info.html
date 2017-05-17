@@ -54,5 +54,14 @@
                 </li>
             </repeat>
         </ul>
+        
+        <h3>My Pet</h3>
+        <p>{{ @firstPet->getName() }}</p>
+        <p> {{ @firstPet->getColor() }} </p>
+        
+        <check if="{{ @secondPet->getColor() === @color }}">
+            <true>an image of a pet</true>
+            <false>some text</false>
+        </check>
     </body>
 </html>

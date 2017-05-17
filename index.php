@@ -32,6 +32,12 @@
         $f3->set('preferredCustomer', true);
         $f3->set('lastLogin', strtotime('-1 week'));
         
+        $firstPet = new Pet('Fido', 'pink');
+        $f3->set('firstPet', $firstPet);
+        
+        $secondPet = new Pet('Henrietta', 'purple');
+        $f3->set('secondPet', $secondPet);
+        
         echo Template::instance()->render('pages/info.html');
     });
 

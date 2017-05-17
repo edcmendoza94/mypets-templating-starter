@@ -96,3 +96,27 @@
 [06-May-2017 16:21:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tina/public_html/328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php on line 32
 [06-May-2017 16:21:29 America/Chicago] Fatal error: syntax error, unexpected '}'
 [06-May-2017 16:21:29 America/Chicago] [328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php:32] 
+[16-May-2017 21:01:54 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/emendoza5/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:02:08 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/emendoza5/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:02:11 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/emendoza5/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:02:18 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in /home/emendoza5/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:02:44 America/Chicago] Call to undefined function sha3() [/home/emendoza5/public_html/328/mypets-templating-starter/index.php:15]
+[16-May-2017 21:02:44 America/Chicago] [328/mypets-templating-starter/index.php:22] Base->run()
+[16-May-2017 21:16:25 America/Chicago] Function name must be a string [/home/emendoza5/public_html/328/mypets-templating-starter/tmp/2jxw7u73jq68w.2hbmt1l6jeqsc.php:15]
+[16-May-2017 21:16:25 America/Chicago] [328/mypets-templating-starter/index.php:21] Preview->render()
+[16-May-2017 21:16:25 America/Chicago] [328/mypets-templating-starter/index.php:25] Base->run()
+[16-May-2017 21:26:41 America/Chicago] syntax error, unexpected '.' [/home/emendoza5/public_html/328/mypets-templating-starter/tmp/2jxw7u73jq68w.2hbmt1l6jeqsc.php:24]
+[16-May-2017 21:26:41 America/Chicago] [328/mypets-templating-starter/index.php:25] Preview->render()
+[16-May-2017 21:26:41 America/Chicago] [328/mypets-templating-starter/index.php:29] Base->run()
+[16-May-2017 21:31:04 America/Chicago] syntax error, unexpected '.' [/home/emendoza5/public_html/328/mypets-templating-starter/tmp/2jxw7u73jq68w.2hbmt1l6jeqsc.php:24]
+[16-May-2017 21:31:04 America/Chicago] [328/mypets-templating-starter/index.php:25] Preview->render()
+[16-May-2017 21:31:04 America/Chicago] [328/mypets-templating-starter/index.php:29] Base->run()
+[16-May-2017 21:35:17 America/Chicago] syntax error, unexpected '.' [/home/emendoza5/public_html/328/mypets-templating-starter/tmp/2jxw7u73jq68w.2hbmt1l6jeqsc.php:24]
+[16-May-2017 21:35:17 America/Chicago] [328/mypets-templating-starter/index.php:25] Preview->render()
+[16-May-2017 21:35:17 America/Chicago] [328/mypets-templating-starter/index.php:29] Base->run()
+[16-May-2017 21:40:59 America/Chicago] syntax error, unexpected '.' [/home/emendoza5/public_html/328/mypets-templating-starter/tmp/2jxw7u73jq68w.2hbmt1l6jeqsc.php:24]
+[16-May-2017 21:40:59 America/Chicago] [328/mypets-templating-starter/index.php:25] Preview->render()
+[16-May-2017 21:40:59 America/Chicago] [328/mypets-templating-starter/index.php:29] Base->run()
+[16-May-2017 21:41:56 America/Chicago] syntax error, unexpected '.' [/home/emendoza5/public_html/328/mypets-templating-starter/tmp/2jxw7u73jq68w.2hbmt1l6jeqsc.php:24]
+[16-May-2017 21:41:56 America/Chicago] [328/mypets-templating-starter/index.php:25] Preview->render()
+[16-May-2017 21:41:56 America/Chicago] [328/mypets-templating-starter/index.php:29] Base->run()
